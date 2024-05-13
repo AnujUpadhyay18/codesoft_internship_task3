@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio- Anuj Upadhayay</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="anuj.svg" alt="anuj" class="anuj_logo">
+              <ul id="sidemenu">
+                <li><a href="#headr"> Home</a></li>
+                <li><a href="#about"> About</a></li>
+                <li><a href="#services"> Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">contact me</a></li>
+                <i class="fas fa-times cross-icon" onclick="closemenu()"></i>
+              </ul>
+              <i class="fas fa-bars menu-icon" onclick="openmenu()"></i>
+        </nav>
+        <div class="header_text">
+            <p  >Programmer/ Devloper</p>
+            <h1> Hi, I'm <span>Anuj</span> <br> Upadhyay from India </h1>
+        </div>
+    </div>
+
+   </div>
+   <!-- abut section -->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about_column1">
+                <img src="bhole.png" alt="" >
+            </div>
+            <div class="about_column2">
+                <h1 class="sub_title">About me</h1>
+                <p>Welcome to my digital realm! I'm a virtuoso in HTML, CSS, and JavaScript, weaving captivating web experiences. Proficient in C, C++, Java, C#, and SQL, I craft robust software solutions. Committed to elegant coding, innovation, and perpetual growth in the realms of web development and software engineering.</p>
+                <div class="tab-titles">
+                    <p class="tab_links active_link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab_links" onclick="opentab('Exp')">Experience</p>
+                    <p class="tab_links" onclick="opentab('edu')">Education</p>
+                </div>
+                <div class="tab_content actve" id="skills">
+                    <ul><li><span>Fronted Devloper</span><br>Expert Frontend Developer proficient in HTML, CSS, JavaScript, and React. Strong problem-solving, communication, and team collaboration skills, crafting dynamic web experiences</li></ul>
+                    <ul><li><span>Problem Solver</span><br>Problem solver: Analyzing, innovating, and overcoming obstacles with a blend of creativity, perseverance, and strategic thinking in DSA using C,Cpp</li></ul>
+                    <ul><li><span>Teaching/Team work</span><br>Dedicated to fostering growth through effective teaching and thriving in collaborative environments, striving for collective excellence and success.</li></ul>
+                </div>
+                <div class="tab_content" id="Exp">
+                    <ul><li><span>IN College</span><br>Explored diverse subjects, honed critical thinking, and cultivated teamwork skills during enriching two-year college tenure, laying strong educational foundations. </li></ul>
+                    <ul><li><span>Internship</span><br>Interned at CodeSoft and CodeWay, gaining hands-on experience in software development, honing coding skills, and collaborating on real-world projects.</li></ul>
+                    <ul><li><span>IN Online Plateform</span><br>Certified in Google Cyber Security and YouTube tutorials, augmenting expertise with cutting-edge knowledge and practical skills in cybersecurity and digital media.</li></ul>
+                </div>
+                <div class="tab_content" id="edu">
+                    <ul><li><span>B.C.A</span><br>Pursuing Bachelor of Computer Applications (BCA) at United Institute of Management, Prayagraj, UP, with a commendable 7.5 CGPA, advancing skills in IT and management.</li></ul>
+                    <ul><li><span>Scholling</span><br>Attended Jawaharlal IC College, achieving 10th-grade score of 80% and 12th-grade score of 61%, laying strong academic foundations.</li></ul>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+   </div>
+    <!-- work sections       -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub_title">Services</h1>
+             <div class="services_list">
+                 <div>
+                    <span class="material-symbols-outlined">code</span>
+                    <h2>Web Design</h2>
+                    <p>Crafting captivating and user-centric websites with modern design principles, ensuring seamless user experiences and visually stunning interfaces!</p>
+                    <br>
+                    <a href="https://webcastletech.com/blog/importance-of-web-design-in-the-success-of-any-business/">Learn more</a>
+                 </div>
+                 <div>
+                        <span class="material-symbols-outlined">
+                            crop
+                            </span>
+                    <h2>UI Desigin</h2>
+                    <p>Crafting intuitive and visually appealing user interfaces that enhance user experiences and elevate your brand's digital presence.</p>
+                    <br>
+                    <a href="https://ux4sight.com/blog/designing-a-good-user-interface-and-why-its-vital-for-business">Learn more</a>
+                 </div>
+                 <div>
+                    <span class="material-symbols-outlined">
+                        smartphone</span>
+                    <h2>App Design</h2>
+                    <p>Empower your business with cutting-edge mobile applications tailored to your needs. Whether it's iOS, Android, or cross-platform solutions, we build intuitive and engaging apps that elevate user experience.</p>
+                    <br>
+                    <a href="https://duckma.com/why-mobile-app-design-is-critical-to-your-apps-success/">Learn more</a>
+                 </div>
+             </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub_title">My Work</h1>
+            <div class="work_list">
+                <div class="work">
+                    <img src="one.png" alt="">
+                    <div class="layer">
+                        <h3>Spotify clone</h3>
+                        <p>Ui clone of spotify homepage within one song  responsive webpage</p>
+                        <a href="https://inquisitive-melba-a3adb8.netlify.app/"><span class="material-symbols-outlined">link</span></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="two.png" alt="">
+                    <div class="layer">
+                        <h3>Landing page</h3>
+                        <p>its basic landing and responsive page</p>
+                        <a href="https://frolicking-heliotrope-e3d2ed.netlify.app/"><span class="material-symbols-outlined">link</span></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="tree.png" alt="">
+                    <div class="layer">
+                        <h3>Calculater</h3>
+                        <p>Basic calculater for performing simple task</p>
+                        <a href="https://calculatorbyanujbhole.netlify.app/"><span class="material-symbols-outlined">link</span></a>
+                    </div>
+                </div>
+                <div class="work hide">
+                    <img src="two.png" alt="">
+                    <div class="layer">
+                        <h3>Timer</h3>
+                        <p> Timer for to do task on time</p>
+                        <a href="https://anujupadhyay18.github.io/Web-development/"><span class="material-symbols-outlined">link</span></a>
+                    </div>
+                </div>
+                
+            </div>
+            <button class="btn">see more</button>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub_title">contact me</h1>
+                    <p><i class="fas fa-phone"></i>   7570032407</p>
+                    <p><i class="fas fa-envelope"></i> anujbca2022@gmail.com</p>
+                    <div class="social_icon">
+                      <a href="https://wa.me/qr/PX4GZFKGM6J4F1"><i class="fab fa-whatsapp"></i></a>
+                      <a href="https://github.com/AnujUpadhyay18"><i class="fab fa-github"></i></a>
+                      <a href="https://www.linkedin.com/in/anuj-upadhyay-401b98285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+
+                    </div>
+                    <a href="anuj.pdf" class="btn btn2" download>download cv</a>
+                </div>
+                <div class="contact-right">
+                    <form method="POST" action="https://formsubmit.co/af85224b8050c19430c262d6276c9af0">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="emaik" placeholder="your email" required>
+                        <textarea name="Message"  rows="6" placeholder="your messaege"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+              <p>Copright 2024 &copy; made by  <i class="fas fa-heart"></i> Anuj upadhyay</p>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
